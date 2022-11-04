@@ -1,6 +1,6 @@
 def fib(n):
     a,b=0,1
-    if a==n or b==n:
+    if a==n or n==b:
         return False
     c=a+b
     while True:
